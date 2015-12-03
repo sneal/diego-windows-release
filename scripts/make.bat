@@ -1,3 +1,4 @@
 @echo on
 
-dir C:\go14\pkg\tool
+go get github.com/onsi/ginkgo
+go install github.com/onsi/ginkgo/ginkgo
