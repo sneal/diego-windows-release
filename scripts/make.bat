@@ -1,3 +1,3 @@
 @echo on
 
-go env
+dir C:\go14\pkg\tool
