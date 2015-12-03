@@ -1,5 +1,7 @@
 @echo on
 
+go env
+
 rmdir /S /Q output
 mkdir output
 SET DEVENV_PATH=%programfiles(x86)%\Microsoft Visual Studio 12.0\Common7\IDE
