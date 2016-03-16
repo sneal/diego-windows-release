@@ -88,7 +88,7 @@ namespace RepService
                                 " -bbsClientKey=\"" + tryGetKey(hash, "BBS_CLIENT_KEY_FILE") + "\"" +
                                 " -consulCluster=http://127.0.0.1:8500" +
                                 " -debugAddr=0.0.0.0:17008" +
-                                " -listenAddr=0.0.0.0:" + RepPort +
+                                " -listenAddr=" + hash["MACHINE_IP"] + ":" + RepPort +
                                 " -preloadedRootFS=" + hash["STACK"] + ":/tmp/"+ hash["STACK"] +
                                 " -cellID="+hash["MACHINE_NAME"] +
                                 " -zone="+hash["REDUNDANCY_ZONE"] +
